@@ -1,10 +1,23 @@
 {
-  "name": "github-action-demo",
+  "name": "github-action",
   "version": "1.0.0",
-  "description": "Demo for GitHub Actions",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirgayeah23/github-action-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirgayeah23/github-action-demo/issues"
+  },
+  "homepage": "https://github.com/dirgayeah23/github-action-demo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
